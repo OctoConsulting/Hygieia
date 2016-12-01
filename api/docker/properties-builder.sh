@@ -12,6 +12,10 @@ echo "SPRING_DATA_MONGODB_PORT: $SPRING_DATA_MONGODB_PORT"
 
 
 cat > dashboard.properties <<EOF
+server.contextPath=/api
+server.port=8080
+key=6Rl1WFFt33ZrGshGcKHIRVHmSiPEZDgH
+
 #Database Name - default is test
 dbname=${SPRING_DATA_MONGODB_DATABASE:-dashboard}
 

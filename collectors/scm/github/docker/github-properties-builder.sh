@@ -49,6 +49,9 @@ github.host=${GITHUB_HOST:-github.com}
 #Maximum number of days to go back in time when fetching commits
 github.commitThresholdDays=${GITHUB_COMMIT_THRESHOLD_DAYS:-15}
 
+#Encryption key for passwords for private repo
+github.key=6Rl1WFFt33ZrGshGcKHIRVHmSiPEZDgH
+
 EOF
 
 echo "
